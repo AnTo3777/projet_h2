@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>simulation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!------------------------- HEADER ------------------------->
+        <div id="title">Comment se forme un embouteillage ?</div>
+
+        <div id="buttonsBox">
+            <div class="button" id="explicationsButton" onclick="window.location.href='../index.html';">explications</div>
+            <div class="button" id="quizzButton" onclick="window.location.href='../quizz/index.html';">quizz</div>
+            <div class="button" id="simulationButton">simulation</div>
+        </div>
+
+
+        <!------------------------- SIMUALTION BOX ------------------------->
+        <div id="simulationBox">
+
+            <p id="textBox1">Actuellement, toutes les voitures roulent exactement à la même vitesse.</p>
+            <p id="textBox2">Regardons ce qu'il se passe si une voiture freine :</p>
+            <div id="startButton">démarrer</div>
+
+            <div class="road" id="roadExt"></div>
+            <div class="road" id="roadInt"></div>
+        </div>
+
+        <script src="code.js" charset="utf-8"></script>
+    </body>
+</html>

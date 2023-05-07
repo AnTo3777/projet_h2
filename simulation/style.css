@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/********************************* HEADER *********************************/
+#title {
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    background-color: black;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    color: white;
+    height: 40px;
+}
+#buttonsBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px auto 0;
+    width: 500px;
+}
+.button {
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#explicationsButton {
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+#quizzButton {
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+#simulationButton {
+    position: relative;
+    margin: 0px 5px 0px 5px;
+    text-decoration: underline 3px;  
+}
+
+
+
+/********************************* SIMULATION *********************************/
+#simulationBox {
+    position: relative;
+    margin: 30px auto 0;
+    height: 510px;
+    width: 510px;
+}
+
+/************* text *************/
+p {
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    width: 300px;
+}
+#textBox1 {
+    top: 150px;
+    font-size: 0.9rem;
+}
+#textBox2 {
+    top: 230px;
+    font-size: 0.7rem;
+}
+
+/************* startButton *************/
+#startButton {
+    position: absolute;
+    border: 3px solid black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    left: 215px;
+    top: 260px;
+    z-index: 3;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.3s;
+}
+#startButton:hover {
+    background-color: black;
+    color: white;
+}
+
+/************* road *************/
+.road {
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 500px;
+}
+
+#roadExt {
+    height: 500px;
+    width: 500px;
+}
+#roadInt {
+    left: 50px;
+    top: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+/************* cars *************/
+.car {
+    position: absolute;
+    height: 70px;
+    width: 35px;
+    line-height: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background: url('./assets/car.png') no-repeat;
+    background-size: 100%;
+}
