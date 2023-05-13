@@ -6,47 +6,8 @@ const tab = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 let startSimulation = false;
 let ecartAngle;
 const carData = {
-    car0 : {
-        angle : 0,
-        speed : 0.01
-    },
-    car1 : {
-        angle : 0.6,
-        speed : 0.01
-    },
-    car2 : {
-        angle : 1.2,
-        speed : 0.01
-    },
-    car3 : {
-        angle : 1.8,
-        speed : 0.01
-    },
-    car4 : {
-        angle : 2.4,
-        speed : 0.01
-    },
-    car5 : {
-        angle : 3,
-        speed : 0.01
-    },
-    car6 : {
-        angle : 3.6,
-        speed : 0.01
-    },
-    car7 : {
-        angle : 4.2,
-        speed : 0.01
-    },
-    car8 : {
-        angle : 4.8,
-        speed : 0.01
-    },
-    car9 : {
-        angle : 5.55,
-        speed : 0.01
-    }
-};
+    car0 : {angle : 0, speed : 0.01}, car1 : {angle : 0.6, speed : 0.01}, car2 : {angle : 1.2, speed : 0.01}, car3 : {angle : 1.8, speed : 0.01}, car4 : {angle : 2.4, speed : 0.01}, car5 : {angle : 3, speed : 0.01}, car6 : {angle : 3.6, speed : 0.01}, car7 : {angle : 4.2, speed : 0.01}, car8 : {angle : 4.8, speed : 0.01}, car9 : {angle : 5.55, speed : 0.01}
+}; 
 
 
 /******* CSS FUNCTIONS *******/

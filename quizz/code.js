@@ -4,7 +4,7 @@ var avt = document.getElementById('avt')
 var bt1 = document.getElementById('bt1')
 var Q = document.getElementById("Q")
 var resultat = document.getElementById('resultat')
-var Pfin = document.getElementById('Pfin')
+var textef = document.getElementById('textef')
 console.log(bt1)
 console.log(bt1.style)
 bt1.style.backgroundColor = "black" ;
@@ -93,11 +93,10 @@ let Quest = ["Combien de temps en moyenne passe un conducteur français dans les
 
 var v
 var point = 0
-var p = 0
+var p = 1
 var n = 1
 
 resultat.style.zIndex = 0
-Pfin.style.zIndex = 1
 
     bt0.textContent = list0[0];
     bt1.textContent = list1[0];
@@ -179,8 +178,8 @@ function wait(){
     bt3.addEventListener("click",choix3);}
 
 function fin1(){ resultat.style.zIndex = 4
-    Pfin.style.zIndex = 3
-    resultat.textContent = "Votre score est de : " + point + '/9'
+    textef.style.zIndex = 5
+    textef.textContent = "Votre score est de : " + point + '/9'
 }
 function fin2(){bt0.removeEventListener("mouseenter", mouseEnter0);
 bt0.removeEventListener("mouseleave", mouseLeave0);
