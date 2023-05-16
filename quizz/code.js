@@ -118,12 +118,12 @@ test(3)
 }
 
 function text(){
-    bt0.textContent = list0[p];
-    bt1.textContent = list1[p];
-    bt2.textContent = list2[p];
-    bt3.textContent = list3[p];
-    Q.textContent = Quest[p]
-    avt.textContent = "Question : "+ (p + 1) + '/9' ;
+    bt0.textContent = list0[p-1];
+    bt1.textContent = list1[p-1];
+    bt2.textContent = list2[p-1];
+    bt3.textContent = list3[p-1];
+    Q.textContent = Quest[p-1]
+    avt.textContent = "Question : "+ (p) + '/9' ;
 }
 
 function apv1(){
@@ -197,7 +197,7 @@ bt1.removeEventListener("click",choix1);
 bt2.removeEventListener("click",choix2);
 bt3.removeEventListener("click",choix3);}
 function fin(p){
-    if (p == 9){ 
+    if (p == 10){ 
     fin2()
     setTimeout(fin1,2000)}
 }
