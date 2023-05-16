@@ -203,7 +203,7 @@ function fin(p){
 }
 
 function test(v){
-    if(v == list4[p]){ 
+    if(v == list4[p-1]){ 
         point = point + 1
         
         apv1()
